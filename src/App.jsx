@@ -1,12 +1,11 @@
-import Navbar from "./components/Navbar";
-import ItemListContainer from "./components/ItemListContainer";
+import React from "react";
+import MainRouter from "./routes/MainRouter";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
-      <ItemListContainer greeting="¡Explora nuestros productos y comienza tu aventura deportiva hoy!" />
+      <MainRouter />
     </>
   );
 }
